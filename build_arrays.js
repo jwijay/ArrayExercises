@@ -61,21 +61,74 @@ var arrayLetters = ['a','r','r','a','y'];
 
 // Create an array of Objects that represent Famous People.
 // Each Object should have a Name, Age, and their Profession as properties
-
+var famousPeeps = [
+  {
+    Name : "Harry Potter",
+    Age : 14,
+    Profession : 'wizard'
+  },
+  {
+    Name : "Albert Einstein",
+    Age : 76,
+    Profession : 'physicist'
+  },
+  {
+    Name : "Bill Gates",
+    Age : 59,
+    Profession : 'billionaire'
+  }
+];
 
 // Create an array of songs you'd like Jon to add to the playlist of music 
 // to listen to in class.  Each song should be an object with at least 
 // a title and an artist.
+var songsToAdd = [
+  {
+    title : "Settle Down",
+    artist : "Kimbra"
+  },
+  {
+    title : "Color of My Soul",
+    artist : "Pretty Lights"
+  },
+  {
+    title : "Will Do",
+    artist : "TV on the Radio"
+  },
+  {
+    title : "Second Song",
+    artist : "TV on the Radio"
+  }
+];
 
 
 // Create an array of functions. Define any functions you want, they can 
 // be anything! But make sure the syntax is correct :D
+var functions = [
+  function(a,b) {
+    return a + b;
+  },
+  function() {
+    console.log("Hello World");
+  },
+  function(a,b) {
+    if(a > b) {
+      return a;
+    } else {
+      return b;
+    }
+  }
+];
 
 
 // Create an array of Sublime shortcuts.  Each item should have a keystroke 
 // combination and a textual description of what the key combination does. 
 // You can find Sublime Text Shortcuts by traversing the Sublime Text's GUI
 // e.g. File Menu options.
-
+var sublimeShortcuts = [
+  ['ctrl + ~', 'toggle console'],
+  ['cmd + shift + w', 'close entire project (window)'],
+  ['cmd + shift + f', 'search all folders']
+];
 
 

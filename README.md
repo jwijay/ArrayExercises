@@ -16,6 +16,7 @@ _notice your `build_arrays.js` file no longer has your original arrays from `lev
 merge your changes from `level_3`  
 
 `git merge level_3`  
+
 _a commit message may appear, save and quit the commit message editor_  
 
 review your `build_arrays.js` file again, did your changes merge in properly?  
